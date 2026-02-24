@@ -19,7 +19,7 @@ export default function About() {
 
         <div className="flex flex-col">
           <div className="py-4">
-            <h2 className="text-lg">Mastering Design Experience</h2>
+            <h2 className="text-lg">Mastering Design Experience sample</h2>
             <h1 className="text-4xl">About Me</h1>
             <p className="text-base my-4">
               With over 10 years of immersive experience in the world of design,
