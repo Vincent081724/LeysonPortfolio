@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-green: #0db760;
+  --font-sans: "Inter", sans-serif;
+   --screens: {
+        'xs': '375px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      };
+}
+
+@layer base {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: var(--font-sans);
+  }
+}
